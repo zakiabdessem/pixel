@@ -13,7 +13,13 @@ module.exports = {
       primary: ["Noto Sans HK", "sans-serif"],
       spotify: ["Circular Spotify", "sans-serif"],
     },
-    extend: {},
+
+    extend: {
+      colors: {
+        primary: "#DC4011",
+        gradient: "linear-gradient(to right, #E9571E, #F6A53F)",
+      },
+    },
   },
   plugins: [],
 };
