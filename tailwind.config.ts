@@ -10,8 +10,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      primary: ["Noto Sans HK", "sans-serif"],
-      spotify: ["Circular Spotify", "sans-serif"],
+      primary: ["Noev", "sans-serif"],
     },
 
     extend: {
@@ -21,5 +20,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };

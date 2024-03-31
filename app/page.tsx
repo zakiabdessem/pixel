@@ -1,4 +1,4 @@
-import HeroSection from "../components/HeroSection";
+import { HeroSection } from "@/components/component/hero-section";
 import Announcements from "../components/Announcements";
 import CardSection from "../components/CardSection";
 
@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <HeroSection />
      { /*<Announcements />*/}
-      <CardSection />
+      {/* <CardSection /> */}
     </>
   );
 }
