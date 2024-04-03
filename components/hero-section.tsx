@@ -7,14 +7,14 @@ import { Button } from "@/components/ui/button";
 export function HeroSection() {
   return (
     <section className="bg-[url(/main.png)] bg-cover bg-center bg-no-repeat text-white">
-      <div className="container mx-auto md:px-28 py-20 flex flex-col items-start justify-center h-[749px]">
+      <div className="container md:px-28 py-20 flex flex-col items-start justify-center h-[749px]">
         <p className="uppercase tracking-widest mb-2 font-light text-md ml-2">
           Creative Agency
         </p>
-        <h1 className="bg-[url(/pixel-text.svg?height=200&width=600)] bg-contain bg-no-repeat md:h-[200px] md:w-[600px] h-[140px] w-[370px] text-transparent my-3">
-          Pixel
-        </h1>
-        <Button className="mt-4 border border-white rounded-full min-w-64 ml-2 hover:bg-transparent" variant="ghost">
+        <h1 className="bg-[url(/pixel-text.svg?height=200&width=600)] bg-contain bg-no-repeat md:h-[200px] md:w-[600px] h-[140px] w-[370px] text-transparent my-3"></h1>
+        <Button
+          className="mt-4 border border-white rounded-full min-w-64 ml-2 hover:bg-transparent"
+          variant="ghost">
           Learn more
         </Button>
       </div>
