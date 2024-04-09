@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-  font-family: 'Noev';
-  src: url('noev_regular/fontsfree-net-noev-1-webfont.woff2') format('woff2'),
-       url('noev_regular/fontsfree-net-noev-1-webfont.woff') format('woff');
+  font-family: "Noev";
+  src: url("../noev_regular/fontsfree-net-noev-1-webfont.woff2") format("woff2"),
+    url("../noev_regular/fontsfree-net-noev-1-webfont.woff") format("woff");
   font-weight: normal;
-
 }
 
 @font-face {
@@ -24,13 +22,12 @@
       format("truetype"),
     url("https://db.onlinewebfonts.com/t/0203bed5a5450d1496d8df3fb00b6fa1.svg#Noev")
       format("svg");
-      font-weight: bold;
+  font-weight: bold;
 }
-
 
 body {
   --sb-track-color: #f9fafb;
-  --sb-thumb-color: #ecb176;
+  --sb-thumb-color: #DC4011;
   --sb-size: 5px;
 }
 

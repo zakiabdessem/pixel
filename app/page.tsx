@@ -13,7 +13,7 @@ export default function Home() {
       <AdditionalInfo />
       {/*<Announcements />*/}
       {/* <CardSection /> */}
-      <Footer />
+      
     </>
   );
 }
